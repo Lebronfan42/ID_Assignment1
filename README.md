@@ -10,13 +10,18 @@ Wireframe: https://xd.adobe.com/view/2c72de34-a856-45bc-bdde-aed83a6f69c0-7921/
 ## Credits 
 ### Media
 The photos used in the wireframe were obtained from 
+
 Twitter Logo:
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.edigitalagency.com.au%2Ftwitter%2Fnew-twitter-logo-black%2F&psig=AOvVaw2k_8dbk-zjqAEz5uXLASG5&ust=1700467803832000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjA3q3Oz4IDFQAAAAAdAAAAABAE
+
 Soundcloud Logo:
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.iconninja.com%2Fblack-soundcloud-icon-459078&psig=AOvVaw2gSMt3y63fiuzoMJ29cdOu&ust=1700467880200000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPCj9tHOz4IDFQAAAAAdAAAAABAR\
+
 Instagram Logo:
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.edigitalagency.com.au%2Flogos%2Fnew-instagram-logo-black-transparent-png%2F&psig=AOvVaw25O_HcdhQiwYShqSYGX1ga&ust=1700467947114000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJCy7_HOz4IDFQAAAAAdAAAAABAE
+
 Spotify Logo:
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fdeveloper.spotify.com%2Fdocumentation%2Fdesign&psig=AOvVaw05dyeHW0qhYXdSqS24OJN8&ust=1700467991599000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKCl-IbPz4IDFQAAAAAdAAAAABAE
+
 Itunes Logo:
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.iconsdb.com%2Fblack-icons%2Fitunes-icon.html&psig=AOvVaw0BFpnLXkuZP0qIzmqfmAOo&ust=1700468140559000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJiC8s3Pz4IDFQAAAAAdAAAAABAE

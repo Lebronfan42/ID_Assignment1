@@ -1,65 +1,27 @@
 # ID_Assignment1
-
-One or two paragraphs providing an overview of your project. Tell us about your project.
-
-Essentially, this part is your sales pitch.
- 
+The website created is a revamp of an existing website called travisscott.com. The original website is the official website of the music artist Travis Scott. The website sells Travis Scott merch, vinyl, and tickets for his upcoming tour. My website aims to do what the original website aimed to do, which is to allow fans of Travis Scott to buy his merch and to sell tickets for upcoming tours.
 ## Design Process
- 
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
-These files should themselves either be included as a pdf file in the project itself (in an separate directory)
-Include the Adobe XD wireframe as a folder. You can include the XD share url. 
-
-## Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-- Another feature idea
-
-## Technologies Used
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses *JQuery* to simplify DOM manipulation.
-
-
-## Testing
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-## Credits
-
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-
+The Website is designed to have a good user experience with good functionality, being able to achieve its goal of providing a platform for Travis Scott fans to buy tickets and merch. As most of Travis Scott’s fans are teenagers and young adults, the website needs to be appealing to them, having a minimalistic design with few words and more pictures. The websites should also have a simple color palette, following the color palette associated with Travis Scott, Brown, White, and Black. Users should also be able to easily find any product they want, by using search bars and filters to find the product they are looking for. 
+-	As a user, I want to be able to find everything I’m looking for relating to the artist on this website so that I can conveniently find everything I need in one place.
+-	As a user, I want to have a website with a good user experience so that I can use the website efficiently and without trouble.
+-	As a user I want to have a website that has high-quality images and descriptions. 
+-	As a user, I want to have good CTA so that I can have a simple and easy experience when buying items 
+Wireframe: https://xd.adobe.com/view/2c72de34-a856-45bc-bdde-aed83a6f69c0-7921/
+## Credits 
 ### Media
-- The photos used in this site were obtained from ...
+The photos used in the wireframe were obtained from 
 
-### Acknowledgements
+Twitter Logo:
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.edigitalagency.com.au%2Ftwitter%2Fnew-twitter-logo-black%2F&psig=AOvVaw2k_8dbk-zjqAEz5uXLASG5&ust=1700467803832000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjA3q3Oz4IDFQAAAAAdAAAAABAE
 
-- I received inspiration for this project from X
+Soundcloud Logo:
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.iconninja.com%2Fblack-soundcloud-icon-459078&psig=AOvVaw2gSMt3y63fiuzoMJ29cdOu&ust=1700467880200000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPCj9tHOz4IDFQAAAAAdAAAAABAR\
+
+Instagram Logo:
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.edigitalagency.com.au%2Flogos%2Fnew-instagram-logo-black-transparent-png%2F&psig=AOvVaw25O_HcdhQiwYShqSYGX1ga&ust=1700467947114000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJCy7_HOz4IDFQAAAAAdAAAAABAE
+
+Spotify Logo:
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fdeveloper.spotify.com%2Fdocumentation%2Fdesign&psig=AOvVaw05dyeHW0qhYXdSqS24OJN8&ust=1700467991599000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKCl-IbPz4IDFQAAAAAdAAAAABAE
+
+Itunes Logo:
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.iconsdb.com%2Fblack-icons%2Fitunes-icon.html&psig=AOvVaw0BFpnLXkuZP0qIzmqfmAOo&ust=1700468140559000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJiC8s3Pz4IDFQAAAAAdAAAAABAE

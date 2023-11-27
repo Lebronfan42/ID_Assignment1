@@ -1,8 +1,7 @@
 body {
     background: #222222;
     text-align: center;
-    font-family: Avenir, Arial, sans-serif;
-    color: white;
+
 }
 
 #top-features {
@@ -10,10 +9,27 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 }
 
-.HeadingButtons {
+.HeadingButtons a{
     margin: 0 10px;
     text-align: center;
+    text-decoration: none;
+    font-family: Avenir, Arial, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: white;
 }
+
+#HomePageButton a{
+    margin: 0 10px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Avenir, Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
 

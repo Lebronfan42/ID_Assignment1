@@ -91,7 +91,7 @@ video{
     background-color: #24262b;
     max-height: fit-content;
     max-width: 100%;
-    
+    padding:20px;
 }
 
 .row{
@@ -105,7 +105,8 @@ ul{
     list-style: none;
 }
 .footer{
-margin
+    padding-top: 2000px;
+
 
 }
 

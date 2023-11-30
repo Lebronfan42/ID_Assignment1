@@ -304,6 +304,38 @@ height: 100%;
 
 }
 
+.tour-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.tours{
+    padding: 30px;
+}
+.tour-info-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom:1px solid black ;
+    color: rgb(255, 255, 255);
+
+
+}
+
+.tour-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom:1px solid black ;
+
+
+}
+
+.tour-image-box img{
+    width: 100%;
+}
+
+
 
 .footer-container{
     background-color: #24262b;

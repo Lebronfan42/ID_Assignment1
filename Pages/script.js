@@ -12,13 +12,14 @@ let isDragging = false,startX, startScrollLeft;
 const dragStart = (e) => {
     isDragging = true;
     carousel.classList.add("dragging");
-    startX = e.pageX;
+    startX = e.pageX || e.touches[0].pageX;
     startScrollLeft = carousel.scrollLeft;
+    
 }
 
 const dragging = (e) => {
     if (!isDragging) return;
-    carousel.scrollLeft = startScrollLeft + (startX - e.pageX);
+    carousel.scrollLeft = startScrollLeft + (startX - (e.pageX || e.touches[0].pageX));
 }
 
 const dragEnd = () => {
@@ -27,8 +28,11 @@ const dragEnd = () => {
 }
 
 carousel.addEventListener("mousedown", dragStart);
+carousel.addEventListener("touchstart", dragStart);
+
 carousel.addEventListener("mousemove", dragging);
+carousel.addEventListener("touchmove", dragging);
+
 carousel.addEventListener("mouseup", dragEnd);
 carousel.addEventListener("mouseleave", dragEnd);
-
-
+carousel.addEventListener("touchend", dragEnd);

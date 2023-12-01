@@ -382,6 +382,10 @@ img.about_page_img{
     display: flex;
     flex-direction: row;
     font-weight: 500;
+<<<<<<<< HEAD:Css-File/style.css
+========
+    border-bottom:1px solid black ;
+>>>>>>>> b719afb4af7bb27c40b9be189566ee2281237202:Css File/style.css
     color: rgb(255, 255, 255);
     background: black;
 
@@ -402,6 +406,10 @@ img.about_page_img{
 }
 
 .tour-info:hover{
+<<<<<<<< HEAD:Css-File/style.css
+========
+    padding:-10px;
+>>>>>>>> b719afb4af7bb27c40b9be189566ee2281237202:Css File/style.css
     background: black;
     color: white;
     transition: 0.3s;
@@ -530,6 +538,7 @@ img.footer_img{
     height:40px;
     width: 40px;
 }
+
 
 @media screen and (max-width: 1350px) {
   

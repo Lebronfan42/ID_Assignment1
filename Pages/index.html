@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Travis Scott</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="/Css-File/style.css" type="text/css">
 </head>
 
 <body>
-    <script src="script.js" defer></script>
+    <script src="/JS-Files/nav_fade_and_carousell.js" defer></script>
+    <script src="/JS-Files/menu.js" defer></script>
+    
 
 
 
@@ -21,22 +24,28 @@
             <div id="Home-Page-Button"> 
                 <a class= "highlight" href="index.html">TRAVIS SCOTT</a> 
             </div>
-    
-            <div class="nav-buttons-right">
-                <div class="right">
-                    <a href="tour.html">TOUR</a>  
-                    <a href="about.html">ABOUT</a> 
-                </div>
-                <div class="icons">
-                    <a><img width=20px height=20px src="/Icons/search-icon.png"></a>
-                </div> 
-    
+            <div class="toggle-button">
+                <img src="/Icons/menu.png" alt="menu">
             </div>
+            <div class="nav-buttons-right">
+                 <a href="tour.html">TOUR</a>  
+                 <a href="about.html">ABOUT</a> 
+          </div>
     </nav>
 
+    <ul class="menu">
+        <li><a href = "index.html">HOME</a></li>
+        <li><a href = "clothing.html">CLOTHING</a></li>
+        <li><a href = "shoes.html">SHOES</a></li>
+        <li><a href = "vinyl.html">VINYL</a></li>
+        <li><a href = "tour.html">TOUR</a></li>
+        <li><a href = "about.html">ABOUT</a></li>
+        
+    </ul>
+
 
     
-    <video  autoplay loop muted src="/Icons/Travis Scott _ Circus Maximus Tour Trailer.mp4"></video>
+    <video  autoplay loop muted src="/Background-images/Travis_Scott_Circus_Maximus_Tour_Trailer.mp4"></video>
 
     <div class="button-section">
         <div class="button">
@@ -48,82 +57,91 @@
     <div class="carousell-wrapper">
         <div class="carousel">
             <div class="card">
-                <a href="https://www.youtube.com/@TravisScottXX" target="_blank" title="Youtube" draggable="false"><img src="/Icons/product-front.png" draggable="false" ></a>
-                <p>
-                    <h2>[PRODUCT-NAME]</h2>
-                    <span>[PRICE]</span>
-                </p>
+                <a href="https://shop.travisscott.eu.com/product/astroworld-festival-run-beyond-belief/" target="_blank" title="Shop Link" draggable="false">
+                    <img src="/Clothing/Clothing_1.png" alt="Clothing_1" draggable="false" >
+                </a>
+                <h2 class="product-title">ASTROWORLD FESTIVAL RUN BEYOND BELIEF</h2>
+                <span class="price">$129.75</span>
             </div>
-            <li class="card">
-                <a href="https://www.youtube.com/@TravisScottXX" target="_blank" title="Youtube" draggable="false"><img src="/Icons/product-front.png" draggable="false" ></a>
-                <p>
-                    <h2>[PRODUCT-NAME]</h2>
-                    <span>[PRICE]</span>
-                </p>
-            </li>
-            <li class="card">
-                <a href="https://www.youtube.com/@TravisScottXX" target="_blank" title="Youtube" draggable="false"><img src="/Icons/product-front.png" draggable="false" ></a>
-                <p>
-                    <h2>[PRODUCT-NAME]</h2>
-                    <span>[PRICE]</span>
-                </p>
-            </li>
-            <li class="card">
-                <a href="https://www.youtube.com/@TravisScottXX" target="_blank" title="Youtube" draggable="false"><img src="/Icons/product-front.png" draggable="false" ></a>
-                <p>
-                    <h2>[PRODUCT-NAME]</h2>
-                    <span>[PRICE]</span>
-                </p>
-            </li>
-            <li class="card">
-                <a href="https://www.youtube.com/@TravisScottXX" target="_blank" title="Youtube" draggable="false"><img src="/Icons/product-front.png" draggable="false" ></a>
-                <p>
-                    <h2>[PRODUCT-NAME]</h2>
-                    <span>[PRICE]</span>
-                </p>
-            </li>
-            <li class="card">
-                <a href="https://www.youtube.com/@TravisScottXX" target="_blank" title="Youtube" draggable="false"><img src="/Icons/product-front.png" draggable="false" ></a>
-                <p>
-                    <h2>[PRODUCT-NAME]</h2>
-                    <span>[PRICE]</span>
-                </p>
-            </li>
-            <li class="card">
-                <a href="https://www.youtube.com/@TravisScottXX" target="_blank" title="Youtube" draggable="false"><img src="/Icons/product-front.png" draggable="false" ></a>
-                <p>
-                    <h2>[PRODUCT-NAME]</h2>
-                    <span>[PRICE]</span>
-                </p>
-            </li>
-            <li class="card">
-                <a href="https://www.youtube.com/@TravisScottXX" target="_blank" title="Youtube" draggable="false"><img src="/Icons/product-front.png" draggable="false" ></a>
-                <p>
-                    <h2>[PRODUCT-NAME]</h2>
-                    <span>[PRICE]</span>
-                </p>
-            </li>
-            <li class="card">
-                <a href="https://www.youtube.com/@TravisScottXX" target="_blank" title="Youtube" draggable="false"><img src="/Icons/product-front.png" draggable="false" ></a>
-                <p>
-                    <h2>[PRODUCT-NAME]</h2>
-                    <span>[PRICE]</span>
-                </p>
-            </li>
-            <li class="card">
-                <a href="https://www.youtube.com/@TravisScottXX" target="_blank" title="Youtube" draggable="false"><img src="/Icons/product-front.png" draggable="false" ></a>
-                <p>
-                    <h2>[PRODUCT-NAME]</h2>
-                    <span>[PRICE]</span>
-                </p>
-            </li>
+
+            <div class="card">
+                <a href="https://shop.travisscott.eu.com/product/utopia-x-kaws-hoodie-ii/" target="_blank" title="Shop Link" draggable="false">
+                    <img src="/Clothing/Clothing_4.png" alt="Clothing_4" draggable="false" >
+                </a>
+                <h2 class="product-title">UTOPIA X KAWS HOODIE II</h2>
+                <span class="price">$129.75</span>
+            </div>
+
+            <div class="card">
+                <a href="https://www.farfetch.com/sg/shopping/men/jordan-x-travis-scott-air-jordan-1-low-sneakers-item-14366145.aspx?storeid=11218" target="_blank" title="Shop Link" draggable="false">
+                    <img src="/Shoes/Shoes_9.png" alt="Shoes_9" draggable="false" >
+                </a>
+                <h2 class="product-title">Jordan x Travis Scott Air Jordan 1 Low</h2>
+                <span class="price">$3,958</span>
+            </div>
+
+            <div class="card">
+                <a href="https://stockx.com/travis-scott-cactus-trails-half-zip-sherpa-hoodie-natural" target="_blank" title="Shop Link" draggable="false">
+                    <img src="/Clothing/Clothing_7.png" alt="Clothing_7" draggable="false" >
+                </a>
+                <h2 class="product-title">TRAVIS SCOTT CACTUS TRAILS HALF-ZIP SHERPA HOODIE</h2>
+                <span class="price">$244</span>
+            </div>
+
+            <div class="card">
+                <a href="https://www.merchbar.com/r-b-hiphop-rap/travis-scott/travis-scott-astroworld-2xlp-150g-vinyl" target="_blank" title="Shop Link" draggable="false">
+                    <img src="/Vinyls/Vinyl_6.png" alt="Vinyl_6" draggable="false" >
+                </a>
+                    <h2 class="product-title">ASTROWORLD 2XLP VINYL</h2>
+                    <span class="price">$50.28</span>
+            </div>
+
+            <div class="card">
+                <a href="https://shop.travisscott.com/products/utopia-2-disk-vinyl-lp-cover-1" target="_blank" title="Shop Link" draggable="false">
+                    <img src="/Vinyls/Vinyl_3.png" alt="Vinyl_3" draggable="false" >
+                </a>
+                <h2 class="product-title">UTOPIA 2 DISK VINYL LP COVER 1</h2>
+                <span class="price">$50</span>
+            </div>
+
+            <div class="card">
+                <a href="https://scottmerch.com/look-mom-i-can-fly-real-t-shirt/" target="_blank" title="Shop Link" draggable="false">
+                    <img src="/Clothing/Clothing_9.png" alt="Clothing_9" draggable="false" >
+                </a>
+                <h2 class="product-title">LOOK MOM I CAN FLY REAL T-SHIRT</h2>
+                <span class="price">$69.99</span>
+            </div>
+
+            <div class="card">
+                <a href="https://www.goat.com/sneakers/travis-scott-x-air-force-1-sail-aq4211-101" target="_blank" title="Shop Link" draggable="false">
+                    <img src="/Shoes/Shoes_11.png" alt="Shoes_11" draggable="false" >
+                </a>
+                <h2 class="product-title">Travis Scott x Air Force 1 'Sail</h2>
+                <span class="price">$1369</span>
+            </div>
+
+            <div class="card">
+                <a href="https://scottmerch.com/thrills-and-chills-astroworld-fleece-trouser/" target="_blank" title="Shop Link" draggable="false">
+                    <img src="/Clothing/Clothing_6.png" alt="Clothing_6" draggable="false" >
+                </a>
+                <h2 class="product-title">THRILLS AND CHILLS ASTROWORLD FLEECE TROUSER</h2>
+                <span class="price">$80.00</span>
+            </div>
+
+            <div class="card">
+                <a href="https://www.farfetch.com/sg/shopping/men/jordan-x-travis-scott-x-fragment-air-jordan-1-low-og-sp-sneakers-item-17037229.aspx?storeid=11218" target="_blank" title="Shop Link" draggable="false">
+                    <img src="/Shoes/Shoes_7.png" alt="Shoes_7" draggable="false" >
+                </a>
+                    <h2 class="product-title">Jordan x Travis Scott x Fragment Air Jordan 1 Low OG SP</h2>
+                    <span class="price">$2,444</span>
+            </div>
 
         </div>
     </div>
     
-    <section class="hp-sections">
-        <img src="/Icons/about-page-background.png">
-    </section>
+    <div class="hp-sections">
+        <img src="/Background-images/Clothing_ad.png" alt="Clothing_ad">
+    </div>
 
     <div class="button-section">
         <div class="button">
@@ -131,9 +149,9 @@
         </div>
     </div>
 
-    <section class="hp-sections">
-        <img src="/Icons/about-page-background.png">
-    </section>
+    <div class="hp-sections">
+        <img src="/Background-images/Shoes_ad.png" alt="Shoe_ad">
+    </div>
 
     <div class="button-section">
         <div class="button">
@@ -141,9 +159,9 @@
         </div>
     </div>
 
-    <section class="hp-sections">
-        <img src="/Icons/about-page-background.png">
-    </section>
+    <div class="hp-sections">
+        <img src="/Background-images/Vinyl_ad.png" alt="Vinyl_ad">
+    </div>
 
     <div class="button-section">
         <div class="button">
@@ -156,14 +174,15 @@
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-row">
-
+                <!-- Footer is seperated into 4 parts  -->
                 <div class="footer-column">
+                    <!-- each part is dived into more parts which  contain the content  -->
                     <h4>SOCIALS</h4>
                     <div class="social-links">
-                        <a href="https://www.youtube.com/@TravisScottXX" target="_blank" title="Youtube"><img width="40px" height="40px" src="/Icons/youtube-icon.png"></a>
-                        <a href="https://twitter.com/trvisXX" target="_blank" title="Twitter"><img width="40px" height="40px" src="/Icons/twitter-icon.png"></a>
-                        <a href="https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=BVABNTSiRW61I0EGO3LJ7Q" target="_blank" title="Spotify"><img width="40px" height="40px" src="/Icons/spotify-icon.png"></a>
-                        <a href="https://www.instagram.com/travisscott/?hl=en" target="_blank" title="Instagram"><img width="40px" height="40px" src="/Icons/instagram-icon.png"></a>
+                        <a href="https://www.youtube.com/@TravisScottXX" target="_blank" title="Youtube"><img src="/Icons/youtube-icon.png" alt="YouTube" class="footer_img"></a>
+                        <a href="https://twitter.com/trvisXX" target="_blank" title="Twitter"><img src="/Icons/twitter-icon.png" alt="Twitter" class="footer_img"></a>
+                        <a href="https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=BVABNTSiRW61I0EGO3LJ7Q" target="_blank" title="Spotify"><img src="/Icons/spotify-icon.png" alt="Spotify" class="footer_img"></a>
+                        <a href="https://www.instagram.com/travisscott/?hl=en" target="_blank" title="Instagram"><img src="/Icons/instagram-icon.png" alt="Instagram" class="footer_img"></a>
                     </div>
                 </div>
                 <div class="footer-column">
@@ -184,15 +203,15 @@
                     </ul>
                 </div>
                 <div class="footer-column">
-                    <h3>BE THE FIRST TO KNOW</h3>
+                    <h4>MORE SITES</h4>
                     <ul>
-                        <li><a href=""></a></li>
+                        <li><a href="https://www.travisscott.com/" target="_blank" title="TravisScott.com">OFFICIAL SITE</a></li>
+                        <li><a href="https://fanpacks.travisscott.com/" target="_blank" title="Merch">OFFICIAL MERCH</a></li>
                     </ul>
                 </div>
             </div>
         </div>
-    </footer>   
-
+    </footer> 
 
 
 </body>
